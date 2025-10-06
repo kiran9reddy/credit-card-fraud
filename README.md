@@ -28,7 +28,7 @@ credit-card-fraud/
 
 Clone the repository
 
-git clone https://github.com/yourusername/credit-card-fraud.git
+git clone https://github.com/kiran9reddy/credit-card-fraud.git
 cd credit-card-fraud
 
 Create a virtual environment
