@@ -5,9 +5,7 @@ def load_raw(path):
     return pd.read_csv(path)
 
 def basic_clean(df):
-    # Example basic checks: drop NA, ensure types
     df = df.dropna(how="any")
-    # If dataset has 'Time' and 'Amount', keep them
     return df
 
 def save_processed(df, out_dir="data/processed", filename="processed.csv"):
